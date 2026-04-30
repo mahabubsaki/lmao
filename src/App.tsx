@@ -43,7 +43,7 @@ function App() {
             <li>
               <a href="https://vite.dev/" target="_blank">
                 <img className="logo" src={viteLogo} alt="" />
-                Explore Vit22
+                Explore Vit222
               </a>
             </li>
             <li>
