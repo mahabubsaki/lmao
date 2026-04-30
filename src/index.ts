@@ -6,7 +6,7 @@ const port = process.env.PORT ? Number(process.env.PORT) : 7000;
 app.use(express.json());
 
 app.get("/", (_req, res) => {
-  res.json({ message: "Hello from Express + TypeSc2rip2t2" });
+  res.json({ message: "Hello from Express + Type2Sc2rip2t2" });
 });
 
 app.get("/health", (_req, res) => {
