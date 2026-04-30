@@ -6,7 +6,7 @@ const port = process.env.PORT ? Number(process.env.PORT) : 7000;
 app.use(express.json());
 
 app.get("/", (_req, res) => {
-  res.json({ message: "SESXH2e2llo2 frodm Exp2ress + 2TypS2e2Sc2rip2t2" + process.env.LOL });
+  res.json({ message: "SESXH2e2llo2 frodm Exp2ress + 2TypS2e2Sc2rSDip2t2" + process.env.LOL });
 });
 
 app.get("/health", (_req, res) => {
