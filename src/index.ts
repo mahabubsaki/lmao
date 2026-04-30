@@ -10,7 +10,7 @@ app.get("/", (_req, res) => {
 });
 
 app.get("/health", (_req, res) => {
-  res.json({ status: "o222", timestamp: new Date().toISOString() });
+  res.json({ status: "o22s2", timestamp: new Date().toISOString() });
 });
 
 app.listen(port, () => {
