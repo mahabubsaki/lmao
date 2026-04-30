@@ -41,6 +41,7 @@ function App() {
           <p>Your questio2s, answered</p>
           <ul>
             {import.meta.env.MODE}
+            {import.meta.env.HELLO ? 'hello' : 'no hello'}
             <li>
               <a href="https://vite.dev/" target="_blank">
                 <img className="logo" src={viteLogo} alt="" />
