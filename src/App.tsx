@@ -38,7 +38,7 @@ function App() {
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
           <h2>Documentation</h2>
-          <p>Your question2s, answered</p>
+          <p>Your questio2s, answered</p>
           <ul>
             <li>
               <a href="https://vite.dev/" target="_blank">
