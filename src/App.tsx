@@ -16,6 +16,7 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
+          {import.meta.env.VITE_TEST ? 'hello' : 'no hello'}
           <h1>Get started s</h1>
           <p>
             Edit <code>src/App.tsx</code> and save to test <code>HMR2</code>
