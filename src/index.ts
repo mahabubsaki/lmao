@@ -8,7 +8,9 @@ app.use(express.json());
 app.get("/", (_req, res) => {
   res.json({ message: "H2e2llo2 d frodm Exp2ress + 2Typ2e2Sc2rip2t2" });
 });
-
+app.get("/hello", (_req, res) => {
+  res.json({ message: "Hello from Express + TypeScript" });
+});
 app.get("/health", (_req, res) => {
   res.json({ status: "ok222", timestamp: new Date().toISOString() });
 });
