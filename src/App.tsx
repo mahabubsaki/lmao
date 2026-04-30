@@ -40,6 +40,7 @@ function App() {
           <h2>Docume2nstation</h2>
           <p>Your questio2s, answered</p>
           <ul>
+            {import.meta.env.MODE}
             <li>
               <a href="https://vite.dev/" target="_blank">
                 <img className="logo" src={viteLogo} alt="" />
