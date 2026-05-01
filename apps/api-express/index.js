@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.json({ 
-    message: "Hello s 2from Express Monorepo!",
+    message: "Hello s 2from sExpress Monorepo!",
     app: "api-express",
     time: new Date().toISOString()
   });
