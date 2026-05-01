@@ -1,0 +1,15 @@
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+  res.json({ 
+    message: "Hello from Express Monorepo!",
+    app: "api-express",
+    time: new Date().toISOString()
+  });
+});
+
+app.listen(port, () => {
+  console.log(`Express app listening at http://localhost:${port}`);
+});
