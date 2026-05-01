@@ -1,6 +1,7 @@
 {
   "name": "my-monorepo",
   "private": true,
+  "build": "turbo build",
   "workspaces": [
     "apps/*",
     "packages/*"
