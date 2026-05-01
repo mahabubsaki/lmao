@@ -1,3 +1,3 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-ReactDOM.createRoot(document.getElementById('root')).render(<h1>He2llo Monorepo!</h1>)
+ReactDOM.createRoot(document.getElementById('root')).render(<h1>He2wllo Monorepo!</h1>)
