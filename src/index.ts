@@ -9,7 +9,7 @@ app.get("/", (_req, res) => {
   res.json({ message: "SESXH2e2ll2o2 frodm Exp2ress + SDSD" + process.env.LOL });
 });
 
-app.get("/health", (_req, res) => {
+app.get("/healths", (_req, res) => {
   res.json({ status: "o22Ss2", timestamp: new Date().toISOString() });
 });
 
